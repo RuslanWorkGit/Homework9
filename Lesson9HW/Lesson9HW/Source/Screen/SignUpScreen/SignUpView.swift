@@ -31,3 +31,7 @@ class SignUpView: UIView {
         cvvTextField.text = ""
     }
 }
+
+extension SignUpView: UITextFieldDelegate {
+    
+}
